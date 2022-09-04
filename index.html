@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Checkout Form</title>
+  </head>
+  <body>
+    <h1 id="checkout">Checkout</h1>
+    <main>
+      <form action="">
+        <div id="contact" class="data-form">
+          <h2>Contact Information</h2>
+          <div class="compo">
+            <label for="email">Email</label>
+            <div class="input-tag">
+              <input type="email" name="Email" placeholder="Enter your Email" />
+              <i class="fa-solid fa-envelope"></i>
+            </div>
+          </div>
+        </div>
+        <div id="shipping" class="data-form">
+          <h2>shipping Address</h2>
+          <div class="compo">
+            <label for="Name">Name</label>
+            <div class="input-tag">
+              <input
+                type="text"
+                name="full-Name"
+                placeholder="Enter your Full Name"
+              />
+              <i class="fa-solid fa-user"></i>
+            </div>
+          </div>
+          <div class="compo">
+            <label for="Address">Address</label>
+            <div class="input-tag">
+              <input
+                type="text"
+                name="Address"
+                placeholder="Enter your Address"
+              />
+              <i class="fa-solid fa-house"></i>
+            </div>
+          </div>
+          <div class="compo">
+            <label for="City">City</label>
+            <div class="input-tag">
+              <input type="text" name="City" placeholder="Enter your city" />
+              <i class="fa-sharp fa-solid fa-city"></i>
+            </div>
+          </div>
+          <div class="campo" id="country-field">
+            <label for="Country">Country</label>
+            <div class="input-tag">
+              <select name="your-country" id="user-country">
+                <option value="Turkey">Turkey</option>
+                <option value="Turkey">Germany</option>
+                <option value="Turkey">England</option>
+                <option value="Turkey">U.S.A</option>
+                <option value="Turkey">Canada</option>
+                <option value="Turkey">Sweden</option>
+                <option value="Turkey">Switzerland</option>
+              </select>
+              <i class="fa-solid fa-earth-americas"></i>
+            </div>
+          </div>
+        </div>
+      </form>
+    </main>
+  </body>
+</html>
